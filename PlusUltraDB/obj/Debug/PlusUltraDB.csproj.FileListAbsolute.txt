@@ -1,0 +1,13 @@
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\bin\Debug\PlusUltraDB.dll.config
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\bin\Debug\PlusUltraDB.dll
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\bin\Debug\PlusUltraDB.pdb
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\bin\Debug\EntityFramework.dll
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\bin\Debug\EntityFramework.xml
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\obj\Debug\PlusUltraDB.csprojResolveAssemblyReference.cache
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\obj\Debug\PlusUltraDB.csproj.CoreCompileInputs.cache
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\obj\Debug\PlusUltraDB.dll
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\obj\Debug\PlusUltraDB.pdb
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\obj\Debug\PlusUltraDB.Migrations.InitialCreate.resources
+C:\Users\Branko\source\repos\CourseProject\PlusUltraDB\obj\Debug\PlusUltraDB.csproj.GenerateResource.Cache
