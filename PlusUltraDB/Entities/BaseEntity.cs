@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PlusUltraDB.Entities
 {
-    public class BaseEntity
+    public class BaseEntity : IBaseEntitiy<int>
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]

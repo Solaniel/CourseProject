@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusUltraWeb", "CourseProje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusUltraDB", "PlusUltraDB\PlusUltraDB.csproj", "{08F5A287-DCBF-4E1E-9CA2-7DE6FC1FDBED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusUltra.DataAccess", "PlusUltra.DataAccess\PlusUltra.DataAccess.csproj", "{9B4DFDC5-EDF3-4A4A-BA12-E10CAF258276}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusUltraDataAccess", "PlusUltra.DataAccess\PlusUltraDataAccess.csproj", "{9B4DFDC5-EDF3-4A4A-BA12-E10CAF258276}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -62,7 +62,7 @@
     <Compile Include="MyConfig.cs" />
     <Compile Include="PlusUltraDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\BaseRepostiroy.cs" />
+    <Compile Include="Repositories\BaseRepostiory.cs" />
     <Compile Include="Repositories\IBaseRepository.cs" />
   </ItemGroup>
   <ItemGroup>

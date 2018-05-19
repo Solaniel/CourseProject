@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace PlusUltra.DataAccess.Repositories
 {
-    interface IBaseRepository<T> where T : class
+    public interface IBaseRepository<T>
     {
-        List<T> GetAll();
+        IEnumerable<Game> GetGames();
+        Game GetGameByID(int gameId);
+        void InsertStudent(Game game);
+        void DeleteStudent(int studentID);
+        void UpdateStudent(Student student);
+        void Save();
 
-        T GetById(int id);
-
-        void Create(T item);
-
-        void Update(T item, Func<T, bool> findByID);
     }
 }

@@ -51,6 +51,7 @@
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\GameGenre.cs" />
     <Compile Include="Entities\Genre.cs" />
+    <Compile Include="Entities\IBaseEntitiy.cs" />
     <Compile Include="Entities\Organization.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlusUltra.DataAccess.Repositories
+namespace PlusUltraDB.Entities
 {
-    public class BaseRepostiroy
+    public interface IBaseEntitiy<T>
     {
-        void );
+        T Id { get; set; }
     }
 }
