@@ -77,5 +77,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlusUltraDB\PlusUltraDB.csproj">
+      <Project>{08f5a287-dcbf-4e1e-9ca2-7de6fc1fdbed}</Project>
+      <Name>PlusUltraDB</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
