@@ -6,11 +6,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace PlusUltraDB
+
+
+namespace PlusUltra.DataAccess
 {
     class PlusUltraDbContext : DbContext
     {
-        public PlusUltraDbContext() :base("PlusUltraDbContext")
+        public PlusUltraDbContext()
         {
 
         }
@@ -26,3 +28,4 @@ namespace PlusUltraDB
 
     }
 }
+

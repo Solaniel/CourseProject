@@ -1,0 +1,2 @@
+C:\Users\Branko\source\repos\CourseProject\PlusUltra.DataAccess\obj\Debug\PlusUltraDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Branko\source\repos\CourseProject\PlusUltra.DataAccess\obj\Debug\PlusUltraDataAccess.csproj.CoreCompileInputs.cache

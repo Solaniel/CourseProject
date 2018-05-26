@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlusUltraDB.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,9 @@ namespace PlusUltra.DataAccess.Repositories
     {
         IEnumerable<Game> GetGames();
         Game GetGameByID(int gameId);
-        void InsertStudent(Game game);
-        void DeleteStudent(int studentID);
-        void UpdateStudent(Student student);
+        void InsertGame(Game game);
+        void DeleteGame(int gameId);
+        void UpdateGame(Game game);
         void Save();
 
     }

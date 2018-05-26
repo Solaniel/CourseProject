@@ -50,28 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201804261000149_InitialCreate.cs" />
-    <Compile Include="Migrations\201804261000149_InitialCreate.Designer.cs">
-      <DependentUpon>201804261000149_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804261403589_AddRequired.cs" />
-    <Compile Include="Migrations\201804261403589_AddRequired.Designer.cs">
-      <DependentUpon>201804261403589_AddRequired.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyConfig.cs" />
-    <Compile Include="PlusUltraDBContext.cs" />
+    <Compile Include="PlusUltraDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\BaseRepostiory.cs" />
     <Compile Include="Repositories\IBaseRepository.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201804261000149_InitialCreate.resx">
-      <DependentUpon>201804261000149_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804261403589_AddRequired.resx">
-      <DependentUpon>201804261403589_AddRequired.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -82,6 +64,9 @@
       <Project>{08f5a287-dcbf-4e1e-9ca2-7de6fc1fdbed}</Project>
       <Name>PlusUltraDB</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
